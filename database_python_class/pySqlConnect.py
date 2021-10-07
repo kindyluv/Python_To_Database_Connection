@@ -25,12 +25,12 @@ def connect_fetch():
         if conn.is_connected:
             print("connected to the database")
 
-    #         # select query
-    #         sql_select_query = "select * from human"
-    #         cursor = conn.cursor()
-    #         cursor.execute(sql_select_query)
-    #         records = cursor.fetchall()
-    #         print("Total number of rows in human is: ", cursor.rowcount)
+            # select query
+            sql_select_query = "select * from human"
+            cursor = conn.cursor()
+            cursor.execute(sql_select_query)
+            records = cursor.fetchall()
+            print("Total number of rows in human is: ", cursor.rowcount)
     #
     #         # display data from database
     #         print("\nPrinting each Human record")
